@@ -22,7 +22,6 @@ body {
 
 .sign {
     background-color: rgba(92, 18, 18, 0.2);
-    ;
 }
 
 @font-face {
@@ -39,7 +38,7 @@ body {
     color: black;
     font-size: 6rem;
     opacity: 1;
-    background-color: rgba(145, 0, 0, 0.4);
+    background-color: rgba(145, 0, 0, 0.6);
     height: 120px;
     padding: 1rem;
 }
@@ -57,7 +56,7 @@ span {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
-    margin: 20% 10% 0 5%;
+    margin: 15% 10% 0 5%;
 }
 
 p {
@@ -94,9 +93,15 @@ input {
     height: 2rem;
     width: 100%;
     border: 1px solid rgb(92, 18, 18);
-    ;
     border-radius: 8px;
     background-color: transparent;
+    padding: 1px 10px;
+}
+
+label {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(92, 18, 18);
 }
 
 button {
@@ -111,4 +116,31 @@ button {
 
 .img-footer {
     color: white;
+}
+
+.sign a {
+    color: rgb(92, 18, 18);
+}
+
+.background a {
+    color: rgb(168, 103, 103);
+}
+
+a {
+    text-decoration: none;
+}
+
+.login {
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input:focus {
+    outline: 1px solid brown;
+    background-color: rgb(168, 103, 103);
+}
+
+button:active {
+    background-color: transparent;
 }
